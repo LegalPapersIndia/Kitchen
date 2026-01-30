@@ -1,0 +1,160 @@
+export const menuSections = [
+{
+    title: "Breakfast",
+    items: [
+      {
+        name: "Idly",
+        price: "₹95",
+        description: "Soft, steamed rice and lentil cakes served with coconut chutney and sambar.",
+        ingredients: "Rice, urad dal, fenugreek seeds, water, salt.",
+        image: "https://cdn.prod.website-files.com/64931d2aee18510b47f4bb1f/65c3cdd17e07a119ad625fda_chole-bhature.jpeg",
+      },
+      {
+        name: "Masala Dosa",
+        price: "₹165",
+        description: "Crispy fermented crepe filled with spiced potato masala, served with chutneys and sambar.",
+        ingredients: "Rice, urad dal, potatoes, mustard seeds, turmeric, green chilies, curry leaves.",
+        image: "https://cdn.prod.website-files.com/64931d2aee18510b47f4bb1f/65c3cdd12a6be3fb8cca3a33_dosa.jpeg",
+      },
+      {
+        name: "Ghee Pongal",
+        price: "₹140",
+        description: "Savory rice and lentil porridge tempered with ghee, pepper, cashews and curry leaves.",
+        ingredients: "Rice, moong dal, ghee, black pepper, ginger, cashews, curry leaves, cumin.",  
+        image: "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180821150600/Indian-Breakfast.jpg",
+      },
+      {
+        name: "Poori Masala",
+        price: "₹155",
+        description: "Deep-fried puffed bread served with spiced potato curry.",
+        ingredients: "Whole wheat flour, potatoes, mustard seeds, turmeric, green chilies, curry leaves.",
+        image: "https://mysoreaduge.com/wp-content/uploads/2025/06/breakfast-2408818_1280-1280x830.jpg",
+      },
+    ],
+  },
+  {
+    title: "Lunch",
+    items: [
+      {
+        name: "South Indian Thali",
+        price: "₹320",
+        description: "Traditional platter with assorted vegetable curries, rice, sambar, rasam, yogurt, pickle, papad and sweets.",
+        ingredients: "Rice, sambar, rasam, vegetable curries, yogurt, pickle, papad, dessert.",
+        image: "https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_30,w_750/f_auto/tk-traditional-indian-foods-to-taste-in-2022-phpEXAXNS",
+      },
+      {
+        name: "Vegetable Biryani",
+        price: "₹260",
+        description: "Aromatic basmati rice layered with spiced vegetables, saffron and mint.",
+        ingredients: "Basmati rice, mixed vegetables, saffron, mint, garam masala, cumin.",
+        image: "https://sukhis.com/app/uploads/2022/05/image2-3.jpg",
+      },
+      {
+        name: "Paneer Butter Masala",
+        price: "₹290",
+        description: "Soft paneer cubes in rich creamy tomato gravy with butter and mild spices.",
+        ingredients: "Paneer, butter, tomato, cream, garam masala, ginger-garlic.",
+        image: "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto,f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347392/india-food-paratha/india-food-paratha-1120x732.jpg",
+      },
+      {
+        name: "Chana Masala",
+        price: "₹240",
+        description: "Spicy chickpea curry cooked in onion-tomato gravy with aromatic spices.",
+        ingredients: "Chickpeas, onion, tomato, ginger-garlic, green chilli, garam masala, cumin, coriander, amchur.",
+        image: "https://www.spar.co.uk/media/timbe5md/7d12199c-c183-4225-b9ae-0d1bf9a4733d_indian-cuisine-image.jpg?width=1200&height=750&v=1dbf0c5f0287b50",
+      },
+    ],
+  },
+  {
+    title: 'Dinner',
+    items: [
+      {
+        name: 'Butter Chicken',
+        price: '₹380',
+        description: 'Tender chicken in silky tomato-butter gravy with cream and mild spices.',
+        ingredients: 'Chicken, tomato, butter, cream, cashew paste, ginger-garlic, garam masala, kasuri methi, red chilli.',
+        image: 'https://sukhis.com/app/uploads/2022/05/image2-3.jpg',
+      },
+      {
+        name: 'Lamb Rogan Josh',
+        price: '₹480',
+        description: 'Slow-cooked tender lamb in aromatic Kashmiri-style gravy with yogurt and fennel.',
+        ingredients: 'Lamb, yogurt, onion, tomato, ginger-garlic, rogan josh masala (fennel, ginger, cumin, cloves, cardamom), Kashmiri chilli.',
+        image: 'https://cookingenie.com/content/wp-content/uploads/2025/05/Authentic-Indian-meal-served-with-rice-curry-and-breads-1200x675.jpg',
+      },
+      {
+        name: 'Palak Paneer',
+        price: '₹310',
+        description: 'Paneer cubes simmered in smooth spiced spinach puree.',
+        ingredients: 'Spinach (palak), paneer, onion, tomato, ginger-garlic, green chilli, garam masala, cream, cumin.',
+        image: 'https://www.tastingtable.com/img/gallery/20-delicious-indian-dishes-you-have-to-try-at-least-once/intro-1733153567.jpg',
+      },
+      {
+        name: 'Shrimp Curry',
+        price: '₹450',
+        description: 'Succulent shrimps in coconut-based coastal-style curry with spices.',
+        ingredients: 'Shrimp, coconut milk, onion, tomato, ginger-garlic, curry leaves, mustard seeds, turmeric, red chilli, tamarind.',
+        image: 'https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347392/india-food-paratha/india-food-paratha-1120x732.jpg',
+      },
+    ],
+  },
+  {
+    title: 'Beverages',
+    items: [
+      {
+        name: 'Mango Lassi',
+        price: '₹120',
+        description: 'Creamy yogurt blended with ripe mangoes and a touch of cardamom.',
+        ingredients: 'Yogurt, ripe mango pulp, sugar, cardamom, milk (optional).',
+        image: 'https://www.tastingtable.com/img/gallery/21-indian-drinks-you-need-to-try-at-least-once/l-intro-1718799368.jpg',
+      },
+      {
+        name: 'Masala Chai',
+        price: '₹85',
+        description: 'Spiced Indian tea brewed with ginger, cardamom, cloves and cinnamon.',
+        ingredients: 'Black tea, milk, sugar, ginger, cardamom, cinnamon, cloves, black pepper.',
+        image: 'https://sundaysforever-bucket.s3.ap-south-1.amazonaws.com/1677478148991.jpeg',
+      },
+      {
+        name: 'Rose Milk',
+        price: '₹110',
+        description: 'Chilled milk flavored with rose syrup and served with basil seeds.',
+        ingredients: 'Milk, rose syrup, sugar, sabja (basil) seeds, ice.',
+        image: 'https://insanelygoodrecipes.com/wp-content/uploads/2021/10/Indian-Mango-Lassi-with-Fresh-Mangoes.jpg',
+      },
+      {
+        name: 'Madras Filter Coffee',
+        price: '₹95',
+        description: 'Strong South Indian coffee with chicory, served frothy in traditional tumbler.',
+        ingredients: 'Coffee powder (with chicory), milk, sugar, hot water.',
+        image: 'https://blog.swiggy.com/wp-content/uploads/2024/09/Image-3_-Masala-Tea-1024x538.png',
+      },
+    ],
+  },
+  {
+    title: 'Desserts',
+    items: [
+      {
+        name: 'Gulab Jamun',
+        price: '₹140',
+        description: 'Soft deep-fried milk dumplings soaked in rose-cardamom sugar syrup.',
+        ingredients: 'Khoya (milk solids), paneer, maida, sugar syrup, rose water, cardamom, ghee for frying.',
+        image: 'https://prashantcorner.com/cdn/shop/files/DakGulabJamunSR-2.jpg?v=1718083866',
+      },
+      {
+        name: 'Rasmalai',
+        price: '₹160',
+        description: 'Spongy cheese patties in sweetened thickened milk with pistachios.',
+        ingredients: 'Paneer (chhena), milk, sugar, cardamom, saffron, pistachios.',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4J4BY3V6dYqLJFb2nhAkX_OyV-7mpNwCj-w&s',
+      },
+      {
+        name: 'Kulfi',
+        price: '₹130',
+        description: 'Traditional Indian ice cream with nuts, cardamom and saffron.',
+        ingredients: 'Milk, sugar, khoya, cardamom, saffron, pistachios, almonds.',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xiqF1jjqdgMI3wG3wJDNLcr6Uyw_g1ERnA&s',
+      },
+    ],
+  },
+];
